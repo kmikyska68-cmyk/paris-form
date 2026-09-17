@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Before Our Call — The Parisienne Diaries</title>
+  <meta name="description" content="Tell Katelyn about your trip before your Paris consultation call." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display:ital,wght@0,500;1,500;1,600&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="brand">
+      <div class="brand__mark">The Parisienne Diaries</div>
+      <div class="brand__tag">Paris, from a friend who lives there</div>
+    </header>
+
+    <section class="hero">
+      <div class="hero__label">Before Our Call</div>
+      <h1 class="hero__title">Let's plan your Paris around you.</h1>
+      <p class="hero__body">
+        Fill this out before we hop on the phone so I can prep real recommendations
+        and answers in advance — no wasting our 30 minutes on the basics.
+      </p>
+      <div class="hero__signature">Katelyn</div>
+      <div class="hero__role">American Living in Paris</div>
+    </section>
+
+    <div id="statusError" class="status error" role="alert"></div>
+
+    <div class="card">
+      <form id="planningForm" action="https://formsubmit.co/ajax/theparisiennediariesinfo@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New Paris consultation form submission" />
+        <input type="text" name="_honey" class="hidden" tabindex="-1" autocomplete="off" />
+
+        <div class="field-row">
+          <div class="field">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="Name" placeholder="Jane Smith" required />
+          </div>
+          <div class="field">
+            <label for="location">Where You're From</label>
+            <input type="text" id="location" name="Where From" placeholder="Chicago, IL" required />
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="Email" placeholder="you@email.com" required />
+          <span class="hint">So I can follow up if I have questions before our call.</span>
+        </div>
+
+        <div class="field">
+          <label for="preferences">Tell Me About Your Trip</label>
+          <textarea
+            id="preferences"
+            name="Preferences"
+            required
+            placeholder="Who's coming with you, when you're visiting, what you're most excited about, any must-sees already on your list, things you'd rather skip, food you love (or can't stand), pace you like to travel at, budget considerations — anything that helps me plan around you."
+          ></textarea>
+          <span class="hint">
+            One long answer is perfect. The more detail, the better I can prep for our call.
+          </span>
+        </div>
+
+        <div class="submit-row">
+          <button type="submit" class="cta" id="submitBtn">Send My Answers</button>
+        </div>
+        <p class="form-footnote">Your answers go straight to me — see you on the call! 🇫🇷</p>
+      </form>
+
+      <div class="confirmation" id="confirmation">
+        <div class="confirmation__title">Merci!</div>
+        <p class="confirmation__body">
+          Got your answers — I'll dig into them before our call. See you soon!
+        </p>
+      </div>
+    </div>
+
+    <div class="stars">★ ★ ★ ★ ★</div>
+
+    <footer class="page-footer">The Parisienne Diaries · Paris Trip Consultation</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
