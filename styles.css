@@ -60,7 +60,7 @@ body {
   font-size: 0.72rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--label);
+  color: #ffffff;
 }
 
 .hero {
@@ -72,7 +72,7 @@ body {
   font-size: 0.75rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--label);
+  color: #ffffff;
   margin-bottom: 14px;
 }
 
@@ -87,7 +87,7 @@ body {
 }
 
 .hero__body {
-  color: var(--text-muted);
+  color: #ffffff;
   font-size: 1rem;
   max-width: 520px;
   margin: 0 auto;
@@ -105,13 +105,13 @@ body {
   font-size: 0.7rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--label);
+  color: #ffffff;
   margin-top: 2px;
 }
 
 .card {
   background: var(--panel);
-  border: 1px solid var(--panel-border);
+  border: 1.5px solid rgba(255, 255, 255, 0.55);
   border-radius: 18px;
   padding: 40px;
   backdrop-filter: blur(6px);
@@ -282,7 +282,7 @@ button.cta:disabled {
 footer.page-footer {
   text-align: center;
   margin-top: 48px;
-  color: var(--label);
+  color: #ffffff;
   font-size: 0.78rem;
   letter-spacing: 0.04em;
 }
@@ -292,7 +292,7 @@ footer.page-footer {
   margin: 40px auto 0;
   padding-top: 32px;
   border-top: 1px solid var(--panel-border);
-  color: var(--label);
+  color: #ffffff;
   font-size: 0.7rem;
   line-height: 1.7;
 }
@@ -303,7 +303,7 @@ footer.page-footer {
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--label);
+  color: #ffffff;
   margin: 0 0 12px;
 }
 
@@ -312,7 +312,7 @@ footer.page-footer {
 }
 
 .legal strong {
-  color: #8f9cb3;
+  color: #ffffff;
 }
 
 .hidden {
