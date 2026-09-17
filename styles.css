@@ -44,7 +44,8 @@ body {
   display: block;
   width: 100%;
   max-width: 320px;
-  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   margin: 0 auto 40px;
   border-radius: 20px;
   border: 1.5px solid rgba(255, 255, 255, 0.55);
@@ -54,6 +55,7 @@ body {
 @media (min-width: 560px) {
   .hero-photo {
     max-width: 100%;
+    aspect-ratio: 2000 / 1455;
   }
 }
 
@@ -127,11 +129,10 @@ body {
 }
 
 .card {
-  background: var(--panel);
+  background: rgba(255, 255, 255, 0.045);
   border: 1.5px solid rgba(255, 255, 255, 0.55);
   border-radius: 18px;
   padding: 40px;
-  backdrop-filter: blur(6px);
 }
 
 @media (max-width: 560px) {
