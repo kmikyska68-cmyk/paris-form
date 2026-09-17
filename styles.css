@@ -44,10 +44,17 @@ body {
   display: block;
   width: 100%;
   max-width: 320px;
+  height: auto;
   margin: 0 auto 40px;
   border-radius: 20px;
   border: 1.5px solid rgba(255, 255, 255, 0.55);
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4);
+}
+
+@media (min-width: 560px) {
+  .hero-photo {
+    max-width: 100%;
+  }
 }
 
 .brand {
