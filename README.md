@@ -1,24 +1,24 @@
-# Paris Consultation — Pre-Call Form
+# Paris Consultation · Pre-Call Form
 
 A single-page form for people who book "The Parisienne Diaries: Paris Trip
 Consultation" on Gumroad. Styled to match theparisiennediaries.com (deep
-navy background, italic serif headlines, script wordmark, tan CTA).
+navy background, serif headlines and wordmark, tan CTA).
 
 ## Files
 
-- `index.html` — the page and form
-- `styles.css` — all styling
-- `script.js` — submits the form via fetch and shows an inline "Merci!" confirmation instead of leaving the page
+- `index.html`: the page and form
+- `styles.css`: all styling
+- `script.js`: submits the form via fetch and shows an inline "Merci!" confirmation instead of leaving the page
 
 ## How submissions work
 
-The form posts to [FormSubmit](https://formsubmit.co) — no backend or account
+The form posts to [FormSubmit](https://formsubmit.co): no backend or account
 needed, submissions arrive as an email.
 
 **One-time setup:** the first time the form is submitted, FormSubmit will
 send an activation email to `theparisiennediariesinfo@gmail.com` asking to
 confirm the endpoint. Submit the form once yourself after deploying, then
-check that inbox and click the confirmation link — after that, all future
+check that inbox and click the confirmation link. After that, all future
 submissions land there automatically.
 
 To change the destination email, edit the `action` attribute on the
@@ -42,5 +42,4 @@ Once deployed, link to the page's URL from:
 ## Customizing
 
 - Colors/fonts are CSS variables at the top of `styles.css`.
-- Wordmark font is Google Font "Parisienne"; headlines use "Playfair
-  Display" italic; body/UI text uses "Inter".
+- Wordmark and headlines both use "Playfair Display"; body/UI text uses "Inter".
