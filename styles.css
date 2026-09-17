@@ -144,7 +144,7 @@ body {
   font-size: 0.75rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--label);
+  color: #ffffff;
   margin-bottom: 8px;
 }
 
@@ -153,7 +153,7 @@ body {
   font-size: 0.85rem;
   letter-spacing: normal;
   text-transform: none;
-  color: var(--text-muted);
+  color: #ffffff;
   margin-top: 6px;
 }
 
@@ -227,7 +227,7 @@ button.cta:disabled {
   text-align: center;
   margin-top: 18px;
   font-size: 0.82rem;
-  color: var(--label);
+  color: #ffffff;
 }
 
 .status {
@@ -292,7 +292,7 @@ footer.page-footer {
   margin: 40px auto 0;
   padding-top: 32px;
   border-top: 1px solid var(--panel-border);
-  color: #ffffff;
+  color: var(--label);
   font-size: 0.7rem;
   line-height: 1.7;
 }
@@ -303,7 +303,7 @@ footer.page-footer {
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--label);
   margin: 0 0 12px;
 }
 
@@ -312,7 +312,7 @@ footer.page-footer {
 }
 
 .legal strong {
-  color: #ffffff;
+  color: #8f9cb3;
 }
 
 .hidden {
